@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	display: grid;
+	grid-template-columns: 1fr 2fr 2.5fr 1fr;
+	align-items: center;
+	padding: 1.7rem;
+}
+
+.nav-items-list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	list-style: none;
+	justify-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-site-name {
+	justify-self: center;
+}
+
+/* ----------- Header ---------------- */
+
+.header { 
+	display: grid;
+	grid-template-rows: 1fr;
+}
+
+/* ---------------  Hero Section ------------- */
+
+.hero {
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+	background-color: #F2F0F1;
+	/* height: 100px;  */
+	
+}
+
+/* ---------- Hero Text Container -------------- */
+
+.hero-text-container {
+	background-color: lightpink;
+    padding-left: 4.5rem; 
+	display: grid; 
+	/* grid-template-rows: 1fr 3fr 1fr;  */
+	 
+}
+
+.annoying-extra-container {
+	grid-row: 2 / 3; 
+}
+
+.hero-text-heading {
+    font-size: 4em;
+    /* background-color: lightblue; */
+    
+}
+
+.hero-text-description {
+    font-size: 1.3em;
+    /* background-color: lightblue;  */
+    
+}
+
+
+/*-------------- Hero Image -----------------  */
+
+
+
+/* --------------- Shop Now Button ------------- */
+.shop-now-form {
+	margin-top: 1em;
+	margin-bottom: 3em;  
+}
+.hero-button {
+	color: white;
+	background-color: black;
+	border: black;
+	padding: 1rem 3rem;
+	border-radius: 1rem;
+	margin-top: 2rem;
+}
+
+.hero-statistics {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+.hero-statistics > h3 {
+	font-size: 3em;
+}
